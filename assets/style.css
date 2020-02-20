@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px;
+}
+
+.header {
+    background-color: #303030;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+    font-variant: small-caps;
+    padding: 10px 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.inputs {
+    width: 650px;
+    padding: 10px 10px;
+    /*text-align: center;*/
+    float: right;
+    display: inline-block;
+}
+
+.inputs label {
+    font-size: 110%;
+    font-weight: 400;
+    text-transform: small-caps;
+}
+
+.theader td {
+    border-bottom: 1px solid #909090;
+}
+
+.inputs input {
+    margin-left: 10px;
+}
+
+table {
+    border-spacing: 10px 0px;
+    border-collapse: separate;
+}
+
+input  {
+    background-color: #303030;
+    color: #f0f0f0;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    width: 70px;
+}
+
+input[type="dropdown"] {
+    width: 150px;
+}
+
+.button {
+    background-color: #303030;
+    color: #e0e0e0;
+    font-size: 16px;
+    font-variant: small-caps;
+    width: 100px;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    display: inline-block;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    color: #303030;
+}
+
+#qrandwalk {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
